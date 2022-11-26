@@ -4,26 +4,29 @@
 /* changes website background to dark */
 
 header {
-  background-image: url("images/hacker-nawpic-1.jpg");
-}
+  background-image: url("images/hoodie.jpg");
+} /* assigns an image to display as the background of an html element */
+
 header h1 {
   margin: 0;
   font-family: fantasy;
   font-size: 45px;
   color: #fff; 
-  padding: 150px 0 20px 20px;
-}
+  padding: 100px 0 20px 20px;
+} /*targets and style h1 selector with the property and values listed in the wavy brackets in the header*/
 h1 {
   color:#fff;
+  text-align: center;
 }
+/* footer style */
 
 footer {
-  background-color: #fff;
+  background-color: #606060;
   color: #fff;
-  margin: 0 0 0 0;
-  padding: 15px 0;
+  margin: 100 0 0 0;
+  padding: 20px 0;
   font-size: 20px;
-}
+} /* nav style */
 nav {
   border: 0px solid #fff;
   padding: 1px;
@@ -32,43 +35,48 @@ nav {
   float: right;
   color: white;
   text-align: right;
-}
+} /* h2 styles */
 h2 {
   font-family:fantasy;
+  padding: 50px;
   margin: 10px;
   font-size: 20px;
-  color:#fff;
-}
+  color: #fff;
+  letter-spacing: 2px;
+} /* h3 styles */
 h3 {
   font-family:fantasy;
   margin: 0px;
   padding:0;
+  letter-spacing: 2px;
 }
-
+/* p style */
 p {
-  letter-spacing:1px;
+  letter-spacing: 2px;
   font-family:sans-serif;
   font-size:15px;
   color:#fff;
+  margin-top: 2px;
+  padding: 8px;
 }
-
+/* ul style */
 ul {
   color: #fff;
   font-family: sans-serif;
-}
+} /* ol style */
 ol {
   color: #fff;
   font-family: sans-serif
-}
+} /* li style */
 li {
   font-size: 15px;
   padding: 5px 10px;
 }
-
+/* alignes the listed items indented within an element*/
 .list-inside li {
   list-style-position: inside;
 }
-
+/* horizontal ruler style */
 hr {
   width: 10px;
   height: 10px;
@@ -84,11 +92,12 @@ a {
   font-size: 15px;
 }
 
-a:link { color:red; }
-a:visited { color:#white; }
+a:link { color:#fff; }
+a:visited { color:#red; }
 a:hover { color:lime }
 a:active { color:orange }
 
 main {
-  padding-left: 20px;
+  min-height: 150px;
+  padding-left: 2px;
 }
