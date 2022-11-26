@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!-- Declares the document as an html 5 webpage --->
 <html>
+  <head>
   <meta charset="utf-8">
   <!-- Tells browser how to process the characters and code within the file --->
  <meta name="viewport" content="width=device-width">
@@ -15,12 +16,16 @@
   <!-- 'link' element is used to connect and reference resources on the internet 
   
   'rel' the relationship between the HTML document and the CSS file
-  'type' specifies the media type of the linked file
-  </head>
+  'type' specifies the media type of the linked file --->
+  
+  </head>  
   <!-- insert all html code here --->
   
 <body>
   <!-- Contains all the HTML code for the text, images, links, and containers used for the web page structure. --->
+
+  <!-- header/nav --->
+  
   <header> 
     <h1>Trae.Thinkful</h1>
     <nav>
@@ -32,29 +37,30 @@
     
   <p><em>Software Engineer</p></em>
   </header>
- 
+ <!-- main/article/section --->
 <main>
   <article>
     <section id="section-1">
-  <h3>Greetings</h3>
+  <h2>Greetings</h2>
   
-  <p>I am currently a student at Thinkful. I have always been fascinated with the fine detail and strict nature that coding entails. My coding journey will mold me into a well prepared developer. My goal is to develop my knowledge of technology so that I may pursue my career as a :</p>
-  <ul>
+  <p>I am currently a student at Thinkful. I have always been fascinated with the fine detail and strict nature that coding entails. My coding journey will mold me into a well prepared developer. My goal is to develop my knowledge of technology so that I may pursue my career as a :</p>  <!-- unordered list --->
+  <ul class="list-inside">
+    <!-- list items --->
     <li>Front End Developer </li>
     <li>Back End Developer</li>
     <li>Full Stack Developer</li>
   </ul>
   
 
-  <p>Currently residing in the DFW area. The food is as great as Texas and the people are amazing!
+  <p>I live in the DFW area. The food is great and the people are amazing!
   </p> 
     </section>
-  
-  <hr>
+  <!-- horizontal rule --->
+  <hr> 
 <section id="section-2">
   <h2>About Me</h2>
- 
-  <p>Thinkful's been a great experience. I'm beginning to comprehend the material and study structure. </p>
+ <!-- about me section --->
+  <p>Thinkful have been a great experience. I'm beginning to comprehend the material and study structure. </p>
  
   <p>When I'm not busy learning code, I like:</p>
   <ul class="list-inside">
@@ -68,23 +74,27 @@
 
   <section id="section-3">
   <h2>Contact Me</h2>
-  
+  <!-- contact me section --->
 
-<p>Contact me via:</p>
-  <ol>
-    <li>
-      <a href="#">LinkedIn</a>
+ <p>I like learning from others and sharing helpful knowledge. </p>
+  <p>Contact me via:</p>
+    <!-- ordered list --->
+    <ol class="list-inside">
+    <li> <!-- Linkedin profile page link ---><a href="https://www.linkedin.com/in/travon-freeman-a6214021b/ " target="_blank">LinkedIn</a>
     </li>
-    <li><a href="#">GitHub<a></li>
+    <li> <!-- Github profile page link---> <a href="https://github.com/Defalt9" target="_blank">GitHub<a></li>
+      <!-- links set to open within a new tab within the browser using attribute target="_blank" --->
     </a>
   </ol>
 </section>
   </article>
   </main>
   <footer>
+    <!-- footer --->
     <span>&#169 Trae.Thinkful</span>
   </footer>
   
+  <!-- script --->
   
   <script src="script.js"></script>
   <!-- pulls in all javascript code in here from script.js file --->
