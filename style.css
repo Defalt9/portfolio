@@ -16,8 +16,10 @@ header h1 {
 
 footer {
   background-color: #000;
-  margin: 100 100 0 0;
-  padding: 2 0;
+  color: #fff;
+  margin: 0 0 0 0;
+  padding: 15px 0;
+  font-size: 20px;
 }
 nav {
   border: 0px solid #000;
@@ -63,8 +65,9 @@ hr {
   border: none;
   background: #000;
   color: light gray;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  align-content: center;
   transform: rotate(45deg);
 }
 a {
