@@ -86,7 +86,7 @@ hr {
   margin-top: 80px;
   margin-bottom: 0px;
   transform: rotate(45deg);
-}
+} /* a style */
 a {
   font-family: sans-serif;
   font-size: 15px;
@@ -96,6 +96,8 @@ a:link { color:#fff; }
 a:visited { color:#red; }
 a:hover { color:lime }
 a:active { color:orange }
+
+/* main style */
 
 main {
   min-height: 150px;
