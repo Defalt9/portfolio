@@ -34,24 +34,3 @@ li {
 .list-inside li {
   list-style-position: inside;
 }
-
-hr {
-  width: 10px;
-  height: 10px;
-  border: none;
-  background: #fff;
-  color: #fff;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  transform: rotate(45deg);
-}
-a {
-  font-family: sans-serif;
-  font-size: 15px;
-}
-
-a:link { color:blue; }
-a:visited { color:red; }
-a:hover { color:lime }
-a:active { color:orange }
-
