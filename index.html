@@ -23,12 +23,19 @@
   <!-- Contains all the HTML code for the text, images, links, and containers used for the web page structure. --->
   <header> 
     <h1>Trae.Thinkful</h1>
-    <nav>Home | Contact | About</nav>
+    <nav>
+      <em>
+        <a href="#section-1">Home</a> | 
+        <a href="#section-2">About</a> | <a href="#section-3">Contact</a>
+      </em>
+    </nav>
+    
   <p><em>Software Engineer</p></em>
   </header>
  
 <main>
   <article>
+    <section id="section-1">
   <h3>Greetings</h3>
   
   <p>I am currently a student at Thinkful. I have always been fascinated with the fine detail and strict nature that coding entails. My coding journey will mold me into a fine developer. My goal is to develop my knowledge of technology so that I may pursue my career as a :</p>
@@ -40,10 +47,11 @@
   
 
   <p>Currently residing in the DFW area. The food is as great as Texas and the people are a <i>'hoot' </i>for some good <em>'hollerin'!</em>
-  </p>
+  </p> 
+    </section>
   
   <hr>
-
+<section id="section-2">
   <h2>About Me</h2>
  
   <p>Since the training started I have fully embraced the resources provided for me. Sleep have become a daily battle in the early rooster mornings and late creaking nights. However, the desire and will to keep trudging along keeps me standing firm in my decision. Watch out! theres a new devloper round these here parts.</p>
@@ -53,16 +61,14 @@
     <li>Song Writing</li>
       <li>Exercising</li>
   </ul>
+</section>
 
   <hr>
 
-  
+  <section id="section-3">
   <h2>Contact Me</h2>
-<p>Communication is the foundation of a strong relationship.</p>
-    </article>
-  </main>
   
-<footer>
+
 <p>Contact me via:</p>
   <ol>
     <li>
@@ -71,7 +77,12 @@
     <li><a href="#">GitHub<a></li>
     </a>
   </ol>
-    </footer>
+</section>
+  </article>
+  </main>
+  <footer>
+    <span>&#169 Trae.Thinkful</span>
+  </footer>
   
   
   <script src="script.js"></script>
